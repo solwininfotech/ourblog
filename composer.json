@@ -1,0 +1,22 @@
+{
+    "name": "solwin/ourblog",
+    "description": "The Advanced Blog Magento 2 extension gives you a opportunity to communicate with your regular customers and casual visitors.",
+    "type": "magento2-module",
+    "version": "2.0.5",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\Ourblog\\": ""
+        }
+    }
+}
